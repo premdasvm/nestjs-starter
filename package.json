@@ -1,9 +1,13 @@
 {
-    "name": "nest-typescript-starter",
+    "name": "nestjs-starter",
     "private": true,
     "version": "1.0.0",
-    "description": "Nest TypeScript starter repository",
-    "license": "MIT",
+    "packageManager": "pnpm@9.15.0",
+    "description": "NestJS + Drizzle ORM starter",
+    "author": {
+        "name": "Prem",
+        "email": "premdasvm8@gmail.com"
+    },
     "scripts": {
         "build": "nest build",
         "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -55,7 +59,7 @@
         "ts-loader": "^9.5.1",
         "ts-node": "^10.9.2",
         "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.3.3"
+        "typescript": "^5.3.3"
     },
     "lint-staged": {
         "*.{js,ts}": [
